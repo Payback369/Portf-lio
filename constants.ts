@@ -35,24 +35,28 @@ export const PORTFOLIO_DATA: PortfolioData = {
   projects: [
     {
       id: "1",
-      title: "AdaptaCast",
-      description: "Podcast criado 100% com IA utilizando AI Studio, Gemini, Whisk e Capcut. O sistema gera roteiros, vozes sintéticas e edita o vídeo automaticamente.",
-      tags: ["AI Studio", "Gemini", "Whisk", "CapCut"],
-      repoLink: "https://github.com",
-      demoLink: "https://youtube.com",
-      image: "/Projeto1.png"
+      title: "PortalCI",
+      description: "Camada cidadã sobre o Portal da Transparência do Maranhão. Traduz dados orçamentários técnicos em linguagem acessível ao cidadão, em 4 telas desktop + 4 mobile. Menção Honrosa no Hackathon STC-MA 2026, segue em produção como peça de portfólio.",
+      tags: ["React", "Vite", "Tailwind", "Recharts", "GovTech"],
+      demoLink: "https://portal-transparencia-vert.vercel.app/",
+      image: "/portalci.jpeg"
     },
     {
       id: "2",
-      title: "Agente Pessoal Financeiro",
-      description: "Automação financeira via WhatsApp integrada ao N8N e Supabase. O agente processa linguagem natural para categorizar gastos e gerar relatórios em tempo real.",
-      tags: ["N8N", "Supabase", "WhatsApp API", "PostgreSQL"],
-      repoLink: "https://github.com",
-      demoLink: "#",
-      image: "/Projeto2.jpeg"
+      title: "CATia",
+      description: "IA para automatizar a análise de Certidões de Acervo Técnico no CREA. Extrai dados de PDFs, cruza ART com contrato, atestado e nota fiscal, detecta inconsistências e gera parecer automático. De 20 dias para 2 minutos. 2º lugar no Hackathon CREA-MA 2026.",
+      tags: ["IA", "Document AI", "NLP", "Hackathon"],
+      image: "/catia.jpeg"
     },
     {
       id: "3",
+      title: "In-pulso",
+      description: "Plataforma de valorização industrial: equipamentos em fim de vida são analisados por IA, classificados conforme NBR 10004 e PNRS, e ganham passaporte público compartilhável. Proof-of-concept de 37h no Low Hack 2026 (Siemens); rebuild com stack próprio em planejamento.",
+      tags: ["OpenAI", "Sustentabilidade", "ESG", "Hackathon"],
+      image: "/inpulso.jpeg"
+    },
+    {
+      id: "4",
       title: "Canal Dark Youtube",
       description: "Monetizei esse canal utilizando apenas ferramentas de IA, desde a definição do Branding até a geração de roteiros e imagens. Pude aprender na prática a utilizar as melhores ferramentas do mercado para desenvolver esse Projeto.",
       tags: ["Claude Code", "Whisk", "Automation", "YouTube API"],
@@ -73,8 +77,8 @@ export const PORTFOLIO_DATA: PortfolioData = {
     {
       id: "exp2",
       role: "Especialista em Marketing Digital",
-      company: "Várias Agências",
-      period: "2023 - 2024",
+      company: "Freelance",
+      period: "2023 - Presente",
       description: "Atuação multidisciplinar envolvendo Tráfego Pago, Copywriting e Design. Otimização de funis de vendas e estratégias de growth.",
       skills: ["Facebook Ads", "Copywriting", "Analytics", "CRM"]
     }

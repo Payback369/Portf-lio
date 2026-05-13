@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
         <div className="flex items-center gap-4 mb-16 text-[#39ff14]">
           <Terminal className="w-6 h-6" />
           <h2 className="text-xl md:text-2xl font-bold tracking-widest uppercase">
-            ~/career/history.log
+            ~/trajetoria.log
           </h2>
         </div>
 
@@ -38,7 +38,7 @@ const Experience: React.FC = () => {
                 {/* Command Line Header */}
                 <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-6 text-xs md:text-sm text-neutral-500 border-b border-neutral-800 pb-4">
                   <span className="text-[#39ff14]">root@matheus:</span>
-                  <span className="text-neutral-400">~/execute_role</span>
+                  <span className="text-neutral-400">~/atuacao</span>
                   <span className="hidden md:inline text-neutral-700">|</span>
                   <span className="text-neutral-300">[{item.period}]</span>
                   <span className="flex-1 text-right text-[#39ff14]/50">PID: {1000 + index}</span>
@@ -57,7 +57,7 @@ const Experience: React.FC = () => {
 
                 {/* Description (Console Output) */}
                 <div className="font-mono text-sm leading-relaxed text-neutral-400 pl-4 border-l border-[#39ff14]/30 mb-6">
-                  <span className="text-[#39ff14 opacity-50 block mb-2">// output log:</span>
+                  <span className="text-[#39ff14 opacity-50 block mb-2">// resumo:</span>
                   {item.description}
                 </div>
 

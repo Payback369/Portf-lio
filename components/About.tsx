@@ -25,11 +25,10 @@ const About: React.FC = () => {
                         <div className="relative group">
                             {/* Image Container with Neon Border */}
                             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-neutral-800 group-hover:border-[#39ff14] transition-colors duration-500">
-                                <div className="absolute inset-0 bg-[#39ff14]/10 group-hover:bg-transparent transition-colors duration-500 z-10" />
                                 <img
                                     src={profile.avatarUrl}
                                     alt={profile.name}
-                                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110"
+                                    className="w-full h-full object-cover transition-all duration-500 scale-100 group-hover:scale-110"
                                 />
                             </div>
 
